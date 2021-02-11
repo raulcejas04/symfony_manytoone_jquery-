@@ -1,3 +1,10 @@
+El original está en:
+https://github.com/konshensx16/embed-collection-of-forms
+pero no funciona
+hay que tocar la entidad user.php y agregar el JoinColumn
+y primero hacer un composer update
+
+
 Embed Collection Of Forms
 ========================
 
