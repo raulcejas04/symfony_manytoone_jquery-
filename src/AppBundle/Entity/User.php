@@ -3,6 +3,7 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\ORM\Mapping\JoinColumn;
 
 /**
  * User
@@ -30,6 +31,7 @@ class User
 
     /**
      * @ORM\OneToMany(targetEntity="Exp", mappedBy="user", cascade={"persist"})
+     * @JoinColumn(name="nro_legajo", referencedColumnName="nro_legajo")
      */
     private $exp;
 
